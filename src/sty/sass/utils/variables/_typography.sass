@@ -1,0 +1,58 @@
+@use 'sass:math'
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,300;0,400;0,500;0,700;1,400&display=swap')
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap')
+
+
+
+@function calc_fs($x)
+    $ratio: math.div(23, 20)
+    
+    @return ($x * $ratio)
+
+
+
+@function emify($x, $y)
+    @return (math.div($x, $y) * 1em)
+
+
+
+$typeface-sans-body-fallback: ('Source Sans Pro', 'Lato', 'Roboto', 'Poppins', 'Verdana', system-ui, sans-serif)
+$typeface-sans-heading-fallback: $typeface-sans-body-fallback
+$typeface-mono-fallback: ('Roboto Mono', monospace)
+
+$typeface-sans-body: ('Source Sans 3', $typeface-sans-body-fallback)
+$typeface-sans-heading: ('Poppins', $typeface-sans-body)
+$typeface-mono: ('Source Code Pro', $typeface-mono-fallback)
+
+$font-weight-base: 400
+
+$font-weight-body-regular: $font-weight-base
+$font-weight-body-bold: ($font-weight-base + 300)
+$font-weight-heading-regular: ($font-weight-base - 100)
+$font-weight-heading-bold: ($font-weight-base + 100)
+$font-weight-mono-regular: $font-weight-body-regular
+
+$font-size-raw-root: 16
+$font-size-raw-html: 16
+$font-size-raw-body: 14
+$font-size-raw-p: 16
+$font-size-raw-h6: 16
+$font-size-raw-h5: calc_fs($font-size-raw-h6)
+$font-size-raw-h4: calc_fs($font-size-raw-h5)
+$font-size-raw-h3: calc_fs($font-size-raw-h4)
+$font-size-raw-h2: calc_fs($font-size-raw-h3)
+$font-size-raw-h1: calc_fs($font-size-raw-h2)
+
+$font-size-root: 16
+$font-size-html: emify($font-size-raw-html, $font-size-raw-root)
+$font-size-body: emify($font-size-raw-body, $font-size-raw-html)
+$font-size-p: emify($font-size-raw-p, $font-size-raw-html)
+$font-size-h6: emify($font-size-raw-h6, $font-size-raw-html)
+$font-size-h5: emify($font-size-raw-h5, $font-size-raw-html)
+$font-size-h4: emify($font-size-raw-h4, $font-size-raw-html)
+$font-size-h3: emify($font-size-raw-h3, $font-size-raw-html)
+$font-size-h2: emify($font-size-raw-h2, $font-size-raw-html)
+$font-size-h1: emify($font-size-raw-h1, $font-size-raw-html)
+
+$line-height: $font-size-h3

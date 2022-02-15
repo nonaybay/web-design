@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,300;0,400;0,500;0,700;1,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap");
+:root {
+  font-family: "Source Sans 3", "Source Sans Pro", "Lato", "Roboto", "Poppins", "Verdana", system-ui, sans-serif;
+  font-size: 16;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 1.520875em;
+}
+
+html {
+  font-family: "Source Sans 3", "Source Sans Pro", "Lato", "Roboto", "Poppins", "Verdana", system-ui, sans-serif;
+  font-size: 1em;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 1.520875em;
+}
+
+body, p, h1, h2, h3, h4, h5, h6 {
+  font-family: "Source Sans 3", "Source Sans Pro", "Lato", "Roboto", "Poppins", "Verdana", system-ui, sans-serif;
+  font-size: 0.875em;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 1.520875em;
+  margin: 0;
+  padding: 0;
+}
+body small, p small, h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
+  font: inherit;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+  font-size: 1em;
+}
+
+h6 {
+  font-family: "Poppins", "Source Sans 3", "Source Sans Pro", "Lato", "Roboto", "Poppins", "Verdana", system-ui, sans-serif;
+  font-size: 1em;
+  font-weight: 500;
+}
+
+h5 {
+  font-family: "Poppins", "Source Sans 3", "Source Sans Pro", "Lato", "Roboto", "Poppins", "Verdana", system-ui, sans-serif;
+  font-size: 1.15em;
+  font-weight: 500;
+}
+
+h4 {
+  font-family: "Poppins", "Source Sans 3", "Source Sans Pro", "Lato", "Roboto", "Poppins", "Verdana", system-ui, sans-serif;
+  font-size: 1.3225em;
+  font-weight: 500;
+}
+
+h3 {
+  font-family: "Poppins", "Source Sans 3", "Source Sans Pro", "Lato", "Roboto", "Poppins", "Verdana", system-ui, sans-serif;
+  font-size: 1.520875em;
+  font-weight: 500;
+}
+
+h2 {
+  font-family: "Poppins", "Source Sans 3", "Source Sans Pro", "Lato", "Roboto", "Poppins", "Verdana", system-ui, sans-serif;
+  font-size: 1.74900625em;
+  font-weight: 500;
+}
+
+h1 {
+  font-family: "Poppins", "Source Sans 3", "Source Sans Pro", "Lato", "Roboto", "Poppins", "Verdana", system-ui, sans-serif;
+  font-size: 2.0113571875em;
+  font-weight: 500;
+}
+
+/*# sourceMappingURL=index.css.map */

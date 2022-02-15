@@ -1,0 +1,97 @@
+@use '../utils/variables/typography' as *
+
+
+
+:root
+    font-family: $typeface-sans-body
+    font-size: $font-size-root
+    font-style: normal
+    font-weight: $font-weight-body-regular
+    letter-spacing: 0
+    line-height: $line-height
+
+
+
+html
+    font-family: $typeface-sans-body
+    font-size: $font-size-html
+    font-style: normal
+    font-weight: $font-weight-body-regular
+    letter-spacing: 0
+    line-height: $line-height
+
+
+
+body
+    font-family: $typeface-sans-body
+    font-size: $font-size-body
+    font-style: normal
+    font-weight: $font-weight-body-regular
+    letter-spacing: 0
+    line-height: $line-height
+    margin: 0
+    padding: 0
+
+    small
+        font: inherit
+
+
+
+p
+    @extend body
+
+    font-size: $font-size-p
+
+
+
+h6
+    @extend p
+
+    font-family: $typeface-sans-heading
+    font-size: $font-size-h6
+    font-weight: $font-weight-heading-bold
+
+
+
+h5
+    @extend p
+
+    font-family: $typeface-sans-heading
+    font-size: $font-size-h5
+    font-weight: $font-weight-heading-bold
+
+
+
+h4
+    @extend p
+
+    font-family: $typeface-sans-heading
+    font-size: $font-size-h4
+    font-weight: $font-weight-heading-bold
+
+
+
+h3
+    @extend p
+
+    font-family: $typeface-sans-heading
+    font-size: $font-size-h3
+    font-weight: $font-weight-heading-bold
+
+
+
+h2
+    @extend p
+
+    font-family: $typeface-sans-heading
+    font-size: $font-size-h2
+    font-weight: $font-weight-heading-bold
+
+
+
+h1
+    @extend p
+
+    font-family: $typeface-sans-heading
+    font-size: $font-size-h1
+    font-weight: $font-weight-heading-bold
