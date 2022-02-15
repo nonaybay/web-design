@@ -1,16 +1,1 @@
-coding conventions
-
-__all codes:__
-- prefer 'pythonic', so:
-    - 4 spaces
-    - wrap at 80 columns (but here it's not mandatory)
-
-__html:__
-- 2 blank lines between sections
-- focus on proper indentation. (even though html doesn't require indentation to refer to blocks)
-
-__scss/sass:__
-- 1 blank line to separate mixins and extends inside selector blocks
-- 2 blank lines between variables blocks
-- 2 blank lines between selectors
-- 3 blank lines above and below functions/mixins
+<pre><i>coding conventions</i><br/><br/><br/><strong>all codes:</strong><ul><li>prefer "pythonic", so:<ul><li>4 spaces</li><li>wrap at 80 columns. (but here it's not mandatory)</li></ul></li></ul><br/><br/><br/><strong>html:</strong><ul><li>2 blank lines between sections</li><li>focus on proper indentation. (event though html doesn't require indentation to refer to blocks)</li></ul><br/><br/><br/><strong>scss/sass:</strong><ul><li>1 blank line to separate mixins and extends inside selector blocks</li><li>2 blank lines between variables blocks</li><li>2 blank lines between selectors</li><li>3 blank lines above and below functions/mixins</li></ul></pre>
